@@ -1,0 +1,354 @@
+//HOME
+.line{
+    img{
+        object-fit: cover;
+        height: 15px;
+        width: 100%;
+    }
+}
+
+#content{
+
+    .caption{
+
+        h1{
+            font-size: 25px;
+        }
+    }
+    .menu{
+        // .menu-wrapper{
+        //     color: #FFF;
+        //     cursor: pointer;
+        //     h2{
+        //         position: absolute;
+        //         top: 42.5%;
+        //         left: 50%;
+        //         transform: translate(-50%, -50%);
+        //     }
+        // }
+        // .caption-wrapper{
+        //     padding: 20px;
+        //     background-color: #82caac;
+        //     transition: letter-spacing 0.2s ease-out;
+        //     .caption-inner-wrapper{
+        //         border-style: solid;
+        //         border-width: 5px;
+        //         border-color: #FFF;
+        //         h1{
+        //             margin: 5px;
+        //         }
+        //     }
+        // }
+        // .caption-wrapper:hover{
+        //     letter-spacing: 3px;
+        //     transition: letter-spacing 0.2s ease-out;
+        //     background-color: #67a08a;
+        // }
+        .content-1-wrapper{
+            // #image-left{
+            //     margin: 0 0 20px 0;
+            //     img{
+            //         width: 100%;
+            //         height: 192px;
+            //         object-fit: cover;
+            //     }
+            //     img:hover{
+            //         -webkit-filter: brightness(80%);
+            //     }
+            // }
+            #caption-left{
+                margin-bottom: 20px;
+
+                h1{
+                    font-size: 25px;
+                }
+            }
+        }
+        // .content-2-wrapper{
+        //     width: 100%;
+        //     img{
+        //         object-fit: cover;
+        //         height: 350px;
+        //     }
+        //     img:hover{
+        //         -webkit-filter: brightness(80%);
+        //     }
+        //     h1{
+        //         padding: 80px;
+        //     }
+        // }
+        .content-3-wrapper{
+            // #image-right{
+            //     margin: 20px 0 0 0;
+            //     img{
+            //         width: 100%;
+            //         height: 192px;
+            //         object-fit: cover;
+            //     }
+            //     img:hover{
+            //         -webkit-filter: brightness(80%);
+            //     }
+            // }
+            #caption-right{
+                margin-top: 20px;
+                h1{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
+
+#footer{
+    // margin-bottom: 50px;
+
+    #left-footer{
+        border: none;
+        padding-right: 15px;
+        // border-right-style: solid;
+        // border-right-width: 5px;
+        // border-right-color: #82caac;
+        // #about-us, #help{
+        //     color: #5c5251;
+        // }
+        #about-us{
+            border: none;
+            // border-right-style: solid;
+            // border-right-width: 5px;
+            // border-right-color: #82caac;
+            // padding-left: 50px;
+
+        }
+        #help{
+            // padding-left: 50px;
+        }
+        .footer-title{
+            // margin-top:0;
+        }
+        .footer-list{
+            list-style: none;
+            font-size: 18px;
+            margin-top: -20px;
+            margin-left: -40px;
+            letter-spacing: 1px;
+            a{
+                text-decoration: none;
+                color: #5c5251;
+                transition: color 0.3s ease-out;
+            }
+            a:hover{
+                color: #82caac;
+                transition: color 0.3s ease-out;
+            }
+
+
+            li{
+                font-family: "BitterBold";
+                margin-bottom: 3px;
+            }
+
+        }
+        .footer-list > li:before{
+            content: "-";
+            margin-right: 5px;
+            font-family: "BitterBold"
+        }
+
+        #trademark{
+            // font-family: "BitterRegular";
+            // padding-top: 5px;
+            // margin-top: 25px;
+            // text-align: center;
+            // color: #82caac;
+            // background-color: #FFF;
+            // border-style: solid;
+            // border-width: 10px;
+            // border-color: #82caac;
+            // h1{
+            //     font-size: 15px;
+            //     top: 50%;
+            //     transform: translateY(-50%);
+            // }
+        }
+    }
+    #right-footer{
+        text-align: center;
+        padding-left: 15px;
+
+        #email{
+            #email-text{
+                color: #5c5251;
+                padding-bottom: 20px;
+                .footer-title,.footer-desc{
+                    margin: 0;
+
+                }
+                .footer-title{
+                    font-size: 35px;
+                }
+                .footer-desc{
+                    font-family: "BitterRegular";
+                    font-size: 18px;
+                }
+            }
+            #email-component-wrapper{
+                color: #5c5251;
+                #email-address-wrapper{
+                    //padding: 0;
+                    #email-address-field{
+                        text-align: center;
+                        // width: 100%;
+                        // padding: 5px;
+                        // font-size: 20px;
+                        // overflow: visible;
+                        // border: solid 5px #82caac;
+                        // transition: border 0.3s;
+                        // font-family: "BitterRegular";
+
+                    }
+                    // #email-address-field::-webkit-input-placeholder
+                    // {
+                    //     font-family: "BebasNeue";
+                    //     position:relative;
+                    //     top:-5px;
+                    //     overflow: visible;
+                    //     font-size: 30px;
+                    //     text-align: center;
+                    //     color: rgba(130, 202, 172, 0.5);
+                    // }
+                    // #email-address-field:-moz-input-placeholder
+                    // {
+                    //     font-family: "BebasNeue";
+                    //     position:relative;
+                    //     top:-5px;
+                    //     overflow: visible;
+                    //     font-size: 30px;
+                    //     text-align: center;
+                    //     color: rgba(130, 202, 172, 0.5);
+                    // }
+                    // #email-address-field:-ms-input-placeholder
+                    // {
+                    //     font-family: "BebasNeue";
+                    //     position:relative;
+                    //     top:-5px;
+                    //     overflow: visible;
+                    //     font-size: 30px;
+                    //     text-align: center;
+                    //     color: rgba(130, 202, 172, 0.5);
+                    // }
+                }
+
+                #subscribe-button-wrapper{
+                    margin-top: 20px;
+                    padding: 0;
+                    height: 50px;
+                    #subscribe-button{
+                        width: 100%;
+                        font-size: 30px;
+                        vertical-align: top;
+                        background-color: #82caac;
+                        border: 0;
+                        color: #FFF;
+                        transition: letter-spacing 0.2s ease-out;
+                    }
+                    #subscribe-button:hover{
+                        background-color: #67a08a;
+                        letter-spacing: 3px;
+                        transition: letter-spacing 0.2s ease-out;
+                    }
+                }
+            }
+        }
+        #social-network{
+            text-align: center;
+
+            #social-network-wrapper{
+                .social-icon{
+                    text-align: center;
+                    img{
+                        margin-top: 20px;
+                        width: 70%;
+                        filter: brightness(1);
+                        -moz-filter: brightness(100%);
+                        -webkit-filter: brightness(100%);
+
+                    }
+                    img:hover{
+
+                        -moz-filter: brightness(80%);
+                        -webkit-filter: brightness(80%);
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+//SHOP
+
+.shop-content{
+
+    a{
+        text-decoration: none;
+        color: #FFF;
+    }
+    .category{
+        text-align: center;
+        margin: 25px 15px 25px 15px;
+        h1{
+            font-size: 35px;
+        }
+    }
+
+    #category-title
+    {
+        text-align: center;
+        border-top-style: solid;
+        border-top-width: 10px;
+        border-top-color: #82caac;
+        margin-top: 50px;
+        #category-title-wrapper{
+            margin-top: -35px;
+
+            h1{
+                font-family: "BebasNeue";
+                text-align: center;
+                color: #FFF;
+                background-color: #82caac;
+                width: 50%;
+                padding: 10px 0 10px 0;
+                margin: auto;
+            }
+        }
+    }
+    #category-list{
+
+        .category-button{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            .category-button-wrapper{
+                background-color: #82caac;
+                padding: 20px;
+                .category-button-inner-wrapper{
+                    border-style: solid;
+                    border-width: 5px;
+                    border-color: #FFF;
+                    transition: letter-spacing 0.2s ease-out;
+                }
+
+            }
+        }
+
+        .category-button-wrapper:hover{
+            background-color: #67a08a;
+            .category-button-inner-wrapper{
+                letter-spacing: 3px;
+                transition: letter-spacing 0.2s ease-out;
+            }
+        }
+
+    }
+
+
+}

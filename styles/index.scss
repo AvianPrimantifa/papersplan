@@ -1,0 +1,17 @@
+@import "breakpoints/base";
+
+@media only screen and (max-width: 1200px) {
+    @import "breakpoints/max_1200.scss";
+}
+
+@media only screen and (max-width: 992px) {
+    @import "breakpoints/max_992.scss";
+}
+
+@media only screen and (max-width: 768px) {
+    @import "breakpoints/max_768.scss";
+}
+
+@media only screen and (max-width: 400px) {
+    @import "breakpoints/max_400.scss";
+}
